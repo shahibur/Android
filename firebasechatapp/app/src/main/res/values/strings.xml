@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">firebase chat app</string>
+
+
+
+    <string name="facebook_app_id">197243767717773</string>
+    <string name="fb_login_protocol_scheme">fb197243767717773</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="female">Female</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="descrip_content">descrip_content</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

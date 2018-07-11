@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebase_Chat</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="signup">signUp</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="todo">TODO</string>
+</resources>

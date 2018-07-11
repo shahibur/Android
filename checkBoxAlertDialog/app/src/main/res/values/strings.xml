@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">checkBoxAlertDialog</string>
+    <string name="dialog_title">\"mutiple choose</string>
+
+    <string-array name="nameLists">
+
+        <item>shahibur</item>
+        <item>rahman</item>
+        <item>shawon</item>
+        <item>nuzaba</item>
+        <item>hasan</item>
+        <item>fuck</item>
+        <item>life</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "654117096433",
+    "firebase_url": "https://fir-tut-feae2.firebaseio.com",
+    "project_id": "fir-tut-feae2",
+    "storage_bucket": "fir-tut-feae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654117096433:android:0057aa67b095541c",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.firebasetutorial_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654117096433-hd9a9jnqq1efuohrer524tm29874cn2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN1imLX5hVgpWlJQhKCAWzcXcYaLTPeJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

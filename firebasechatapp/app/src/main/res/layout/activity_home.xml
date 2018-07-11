@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.firebasechatapp.HomeActivity">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Welcome to firebase chat app"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_haveAnAccount"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_needAnAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:text="Already Have an acount?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_needAnAccount"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_haveAnAccount"
+        android:layout_marginBottom="96dp"
+        android:text="Need An Account?"
+        android:textSize="20sp" />
+</RelativeLayout>

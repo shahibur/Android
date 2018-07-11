@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">getCurrentLatitudeAndLongitude</string>
+    <string name="logitude1">Logitude</string>
+    <string name="string_logitude" />
+    <string name="latitude">Latitude:</string>
+    <string name="logitude">Logitude</string>
+</resources>

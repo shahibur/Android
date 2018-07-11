@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">customDialogFragment</string>
+    <string name="login">Login</string>
+    <string name="login_message">login sucessful</string>
+    <string name="error_message">please fill values</string>
+    <string-array name="spinnerList">
+        <item>choose any option</item>
+        <item>hello</item>
+        <item>shawon</item>
+        <item>nuzaba</item>
+        <item>hasan</item>
+        <item>rahman</item>
+    </string-array>
+</resources>

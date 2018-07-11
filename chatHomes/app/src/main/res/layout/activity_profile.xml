@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.lenovo.chathomes.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profileActivity_userImage"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/default_profile"
+
+        />
+
+    <TextView
+        android:id="@+id/profile_textView_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileActivity_userImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Display UserName"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_textView_userStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_textView_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Display userStatus"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/profile_button_sendRequest"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_button_declineRequest"
+        android:layout_alignStart="@+id/profile_button_declineRequest"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Send friend request"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/profile_button_declineRequest"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="decline friend request"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+</RelativeLayout>
